@@ -1,0 +1,110 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=ID, ST=Jawa Timur, L=Surabaya, O=Rezky, CN=Shin Rezky/emailAddress=shinrezky@example.com
+        Validity
+            Not Before: Mar 14 13:45:09 2020 GMT
+            Not After : Mar 14 13:45:09 2021 GMT
+        Subject: C=ID, ST=Jawa Timur, O=Rezky, OU=Shin Rezky, CN=example.local
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:bb:3c:fd:f4:fc:c7:bd:2d:f9:74:2c:f8:70:79:
+                    4c:89:c1:ba:25:3b:35:65:88:df:15:d0:7f:16:54:
+                    b1:35:95:d4:b2:9c:0c:ba:44:88:26:7f:7f:cb:59:
+                    1b:df:eb:d3:8e:85:e4:d8:c3:37:a6:53:7b:38:52:
+                    71:20:06:ca:e1:00:49:19:ff:e1:04:78:c8:7b:3b:
+                    f9:e7:5d:8b:33:92:0a:78:e1:44:7b:7c:fb:54:bc:
+                    79:41:d1:86:8b:d9:ef:4d:66:55:7a:7c:17:85:15:
+                    f5:f2:80:4d:62:a2:b6:6f:73:bf:88:70:d5:a4:8e:
+                    c4:70:59:fa:b5:be:f5:4e:07:e7:3b:ad:56:58:68:
+                    f9:19:88:33:13:b5:f9:ec:6e:68:07:fa:a1:f5:0b:
+                    f3:e3:59:9f:86:f9:c1:ba:ed:c6:0c:0c:6a:25:25:
+                    e2:a5:c3:fb:01:b2:85:22:e8:99:4f:72:dd:34:24:
+                    a0:ce:76:70:da:c9:bc:3a:c3:6e:b2:e6:9b:8a:16:
+                    d9:c7:27:bd:d0:05:c6:1d:38:16:d4:5f:72:b2:ec:
+                    58:fa:94:7e:59:61:4f:1d:7c:b6:bf:f8:ce:e4:a6:
+                    be:91:67:28:2a:f4:0b:26:5c:09:4a:7b:08:89:4d:
+                    d4:02:aa:a3:a8:c6:da:ad:0e:43:12:2b:43:7e:7c:
+                    25:7b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                A8:A1:2C:78:F7:B9:A3:14:6F:9C:34:0F:D2:89:15:3F:38:85:02:AF
+            X509v3 Authority Key Identifier: 
+                keyid:AB:06:8D:DA:91:F5:50:C6:DD:26:9A:14:08:1E:AF:B0:BC:9D:7E:20
+                DirName:/C=ID/ST=Jawa Timur/L=Surabaya/O=Rezky/CN=Shin Rezky/emailAddress=shinrezky@example.com
+                serial:22:E5:21:80:EA:35:AD:E0:95:9A:EF:5C:AE:8A:C2:F6:07:B5:CF:79
+
+            Netscape CA Revocation Url: 
+                https://ca.local/ca-crl.pem
+            X509v3 Subject Alternative Name: 
+                DNS:example.local, DNS:www.example.local
+    Signature Algorithm: sha256WithRSAEncryption
+         0f:a9:d6:73:55:e9:a1:9f:63:18:b0:4f:7b:2f:de:2f:0a:d0:
+         a6:92:b1:ca:ad:7a:99:b1:3a:8a:47:0a:78:80:63:d8:15:b5:
+         05:31:bd:58:1e:2b:7f:73:71:d9:89:16:bb:c9:bb:af:92:c1:
+         ec:1a:08:ef:fb:76:ff:9d:1a:10:07:05:1f:ee:71:85:b9:3d:
+         e9:a8:28:c7:53:bc:55:97:ca:98:ef:8a:e9:8c:bc:2e:93:fe:
+         9f:73:56:de:62:49:66:93:97:78:9d:f3:17:2d:23:3e:e0:bb:
+         42:b5:cb:f1:64:e9:79:a4:41:60:20:ee:92:85:d3:a0:df:81:
+         60:0c:f0:81:53:d1:f5:4e:d3:63:59:02:21:0d:f2:06:72:e6:
+         8a:0a:94:a7:a9:16:19:64:46:64:3d:89:5d:86:83:01:e6:7c:
+         75:40:ef:89:fa:e7:5c:ba:19:3c:93:35:f2:08:0c:9c:7e:36:
+         6f:23:5f:56:e2:cb:36:ca:f2:2d:30:74:2b:80:72:73:5a:87:
+         91:49:f5:82:c0:0c:23:55:7f:b6:4e:86:31:5c:a5:d5:e0:52:
+         dc:87:f5:0f:10:dd:65:d5:fb:7e:5e:4e:52:3e:51:4f:d1:f9:
+         97:62:22:af:b0:53:e4:f5:04:93:27:e4:18:4f:31:2b:b3:fc:
+         5f:53:d0:e3:be:5e:40:d2:c2:c6:ff:06:b9:d3:20:f5:24:90:
+         da:a4:bd:48:b4:4c:62:44:93:79:34:16:64:a6:65:a9:21:9b:
+         0f:4e:06:74:83:34:de:e0:9f:2c:de:76:d4:89:e7:32:72:40:
+         b7:b8:c8:54:d6:b3:8a:59:d2:ff:e4:41:ab:4e:54:35:78:9c:
+         b7:17:99:06:38:57:09:a7:fd:a6:00:09:7c:66:89:a4:c7:fb:
+         26:cb:2f:9d:24:60:35:81:e5:65:a3:24:34:80:04:86:c3:b5:
+         e3:4b:15:5a:fe:b3:76:5f:66:ac:55:fd:43:df:2e:17:b9:6b:
+         67:f6:28:1e:34:43:da:43:3d:db:dc:19:c6:8e:29:36:05:74:
+         1b:ec:9d:7d:88:04:76:42:fe:c5:94:0c:29:5d:fa:f5:c1:41:
+         0d:cb:f2:ac:9e:85:7f:e0:41:9f:05:d8:ce:1e:36:b2:4d:55:
+         ff:8d:f9:2a:9b:44:b5:be:69:09:1b:3c:15:68:d9:55:36:ad:
+         60:17:84:13:bb:e1:13:95:19:9c:13:fb:3a:21:ed:f7:dc:e5:
+         5f:4b:c9:bd:5c:ec:d2:fe:d7:2f:2c:d6:53:26:ed:17:7e:b5:
+         ee:7a:13:d7:10:f2:dc:c9:c5:11:2a:eb:e1:6c:5a:f2:bd:77:
+         05:3a:3d:ed:bc:09:ed:c3
+-----BEGIN CERTIFICATE-----
+MIIFpzCCA4+gAwIBAgIBATANBgkqhkiG9w0BAQsFADCBgDELMAkGA1UEBhMCSUQx
+EzARBgNVBAgMCkphd2EgVGltdXIxETAPBgNVBAcMCFN1cmFiYXlhMQ4wDAYDVQQK
+DAVSZXpreTETMBEGA1UEAwwKU2hpbiBSZXpreTEkMCIGCSqGSIb3DQEJARYVc2hp
+bnJlemt5QGV4YW1wbGUuY29tMB4XDTIwMDMxNDEzNDUwOVoXDTIxMDMxNDEzNDUw
+OVowXzELMAkGA1UEBhMCSUQxEzARBgNVBAgMCkphd2EgVGltdXIxDjAMBgNVBAoM
+BVJlemt5MRMwEQYDVQQLDApTaGluIFJlemt5MRYwFAYDVQQDDA1leGFtcGxlLmxv
+Y2FsMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuzz99PzHvS35dCz4
+cHlMicG6JTs1ZYjfFdB/FlSxNZXUspwMukSIJn9/y1kb3+vTjoXk2MM3plN7OFJx
+IAbK4QBJGf/hBHjIezv5512LM5IKeOFEe3z7VLx5QdGGi9nvTWZVenwXhRX18oBN
+YqK2b3O/iHDVpI7EcFn6tb71TgfnO61WWGj5GYgzE7X57G5oB/qh9Qvz41mfhvnB
+uu3GDAxqJSXipcP7AbKFIuiZT3LdNCSgznZw2sm8OsNusuabihbZxye90AXGHTgW
+1F9ysuxY+pR+WWFPHXy2v/jO5Ka+kWcoKvQLJlwJSnsIiU3UAqqjqMbarQ5DEitD
+fnwlewIDAQABo4IBSjCCAUYwCQYDVR0TBAIwADAdBgNVHQ4EFgQUqKEsePe5oxRv
+nDQP0okVPziFAq8wgcAGA1UdIwSBuDCBtYAUqwaN2pH1UMbdJpoUCB6vsLydfiCh
+gYakgYMwgYAxCzAJBgNVBAYTAklEMRMwEQYDVQQIDApKYXdhIFRpbXVyMREwDwYD
+VQQHDAhTdXJhYmF5YTEOMAwGA1UECgwFUmV6a3kxEzARBgNVBAMMClNoaW4gUmV6
+a3kxJDAiBgkqhkiG9w0BCQEWFXNoaW5yZXpreUBleGFtcGxlLmNvbYIUIuUhgOo1
+reCVmu9crorC9ge1z3kwKgYJYIZIAYb4QgEEBB0WG2h0dHBzOi8vY2EubG9jYWwv
+Y2EtY3JsLnBlbTArBgNVHREEJDAigg1leGFtcGxlLmxvY2FsghF3d3cuZXhhbXBs
+ZS5sb2NhbDANBgkqhkiG9w0BAQsFAAOCAgEAD6nWc1XpoZ9jGLBPey/eLwrQppKx
+yq16mbE6ikcKeIBj2BW1BTG9WB4rf3Nx2YkWu8m7r5LB7BoI7/t2/50aEAcFH+5x
+hbk96agox1O8VZfKmO+K6Yy8LpP+n3NW3mJJZpOXeJ3zFy0jPuC7QrXL8WTpeaRB
+YCDukoXToN+BYAzwgVPR9U7TY1kCIQ3yBnLmigqUp6kWGWRGZD2JXYaDAeZ8dUDv
+ifrnXLoZPJM18ggMnH42byNfVuLLNsryLTB0K4Byc1qHkUn1gsAMI1V/tk6GMVyl
+1eBS3If1DxDdZdX7fl5OUj5RT9H5l2Iir7BT5PUEkyfkGE8xK7P8X1PQ475eQNLC
+xv8GudMg9SSQ2qS9SLRMYkSTeTQWZKZlqSGbD04GdIM03uCfLN521InnMnJAt7jI
+VNazilnS/+RBq05UNXictxeZBjhXCaf9pgAJfGaJpMf7JssvnSRgNYHlZaMkNIAE
+hsO140sVWv6zdl9mrFX9Q98uF7lrZ/YoHjRD2kM929wZxo4pNgV0G+ydfYgEdkL+
+xZQMKV369cFBDcvyrJ6Ff+BBnwXYzh42sk1V/435KptEtb5pCRs8FWjZVTatYBeE
+E7vhE5UZnBP7OiHt99zlX0vJvVzs0v7XLyzWUybtF3617noT1xDy3MnFESrr4Wxa
+8r13BTo97bwJ7cM=
+-----END CERTIFICATE-----

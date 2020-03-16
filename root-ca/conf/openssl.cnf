@@ -1,0 +1,51 @@
+[ req ]
+default_bits = 4096
+default_keyfile = ./private/root.pem
+default_md = sha256
+prompt = no
+distinguished_name = root_ca_distinguished_name
+x509_extensions = v3_ca
+[ root_ca_distinguished_name ]
+countryName = ID
+stateOrProvinceName = Jawa Timur
+localityName = Surabaya
+0.organizationName = Rezky
+commonName = Shin Rezky
+emailAddress = shinrezky@example.com
+[ v3_ca ]
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer:always
+basicConstraints = CA:true
+[ ca ]
+default_ca = CA_default
+[ CA_default ]
+dir =.
+new_certs_dir = ./signed-keys/
+database = ./conf/index
+certificate = ./public/root.pem
+serial = ./conf/serial
+private_key = ./private/root.pem
+x509_extensions = usr_cert
+name_opt = ca_default
+cert_opt = ca_default
+default_crl_days = 30
+default_days = 365
+default_md = sha256
+preserve = no
+policy = policy_match
+[ policy_match ]
+countryName = match
+stateOrProvinceName = optional
+organizationName = optional
+organizationalUnitName = optional
+commonName = supplied
+emailAddress = optional
+[ usr_cert ]
+basicConstraints=CA:FALSE
+subjectKeyIdentifier=hash
+authorityKeyIdentifier=keyid,issuer:always
+nsCaRevocationUrl = https://ca.local/ca-crl.pem
+subjectAltName = @alt_names
+[ alt_names ]
+DNS.1 = example.local
+DNS.2 = www.example.local
